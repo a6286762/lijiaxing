@@ -1,0 +1,9 @@
+<table border=2>
+
+	<tr><td>ISBN</td><td>Title</td><td>Publisher</td><td>PublishDate</td><td>Price</td><tr>
+	<tr><td>{{ book.ISBN }}</td><td>{{ book.Title }}</td><td>{{ book.Publisher }}</td><td>{{ book.Publication_date }}</td><td>{{ book.Price }}</td><tr>
+	<tr><td>Name</td><td>Age</td><td>Country</td><tr>
+{% for Author in Authors%}
+	<tr><td>{{ Author.Name }}</td><td>{{ Author.Age }}</td><td>{{ Author.Country }}</td><tr>
+{% endfor %}
+</table>
