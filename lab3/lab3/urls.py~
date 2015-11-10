@@ -6,6 +6,7 @@ from books import views
 # from django.contrib import admin
 # admin.autodiscover()
 # meiyoudedongxier
+# duodade
 urlpatterns = patterns('',
     # Example:
     # (r'^mysite/', include('mysite.foo.urls')),

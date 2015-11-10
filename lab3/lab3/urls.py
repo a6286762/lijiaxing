@@ -7,6 +7,7 @@ from books import views
 # admin.autodiscover()
 # meiyoudedongxier
 # duodade
+# woyoulaigaile
 urlpatterns = patterns('',
     # Example:
     # (r'^mysite/', include('mysite.foo.urls')),
